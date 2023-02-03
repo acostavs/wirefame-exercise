@@ -20,18 +20,17 @@ nav {
 ul {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
-
-
-ul li {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 a {
     text-decoration: none;
     color: white;
+}
+
+a,
+li {
+    padding: 5px;
 }
 
 main {
@@ -55,7 +54,6 @@ article {
 
 article section {
     height: 320px;
-    /* width: 450px; */
     overflow: auto;
 }
 
@@ -68,11 +66,11 @@ article a {
     background-color: black;
     color: white;
     border-radius: 2px;
+    padding: 5px;
+    /* margin: auto; */
 
 }
 
-/* .idk {
-    display: flex;
-    width: 960px;
-    margin: 0 auto
-} */
+.idk {
+    margin-top: 13px;
+}
